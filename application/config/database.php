@@ -48,10 +48,17 @@
 $active_group = 'schoolapp';
 $active_record = TRUE;
 
-$db['schoolapp']['hostname'] = '';
-$db['schoolapp']['username'] = '';
-$db['schoolapp']['password'] = '';
-$db['schoolapp']['database'] = '';
+//servidor produccion
+$db['schoolapp']['hostname'] = 'conescapan.db.8917278.hostedresource.com';
+$db['schoolapp']['username'] = 'conescapan';
+$db['schoolapp']['password'] = 'DBconescap@n9';
+$db['schoolapp']['database'] = 'conescapan';
+
+//servidor de pruebas
+// $db['schoolapp']['hostname'] = 'localhost';
+// $db['schoolapp']['username'] = 'conescapan';
+// $db['schoolapp']['password'] = '123456';
+// $db['schoolapp']['database'] = 'conescapan2015_db';
 $db['schoolapp']['dbdriver'] = 'mysqli';
 $db['schoolapp']['dbprefix'] = '';
 $db['schoolapp']['pconnect'] = TRUE;
