@@ -216,10 +216,7 @@
                           
 
                               <button type="submit" class="btn btn-success">Enviar</button>
-                        <?php
-                        //$attributes=array("class"=>"form-horizontal");
-                        echo form_close();
-                        ?>
+                     
                     </form>
 
               </div>
