@@ -210,16 +210,9 @@
                             <p class="help-block">Ejemplo de texto de ayuda.</p>
 
                           </div> -->
-
-
-
-                          
-
-                              <button type="submit" class="btn btn-success">Enviar</button>
-                        <?php
-                        //$attributes=array("class"=>"form-horizontal");
-                        echo form_close();
-                        ?>
+                        
+                              <button type="submit" id="btn_preinscrip" class="btn btn-success">Enviar</button>
+                       
                     </form>
 
               </div>
