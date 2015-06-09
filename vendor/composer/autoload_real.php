@@ -21,6 +21,7 @@ class ComposerAutoloaderInit844d2bd161d7a510f54c725f88a67d33
 
         spl_autoload_register(array('ComposerAutoloaderInit844d2bd161d7a510f54c725f88a67d33', 'loadClassLoader'), true, true);
         self::$loader = $loader = new \Composer\Autoload\ClassLoader();
+        // self::$loader = $loader = new ../composer/ClassLoader.php;
         spl_autoload_unregister(array('ComposerAutoloaderInit844d2bd161d7a510f54c725f88a67d33', 'loadClassLoader'));
 
         $map = require __DIR__ . '/autoload_namespaces.php';

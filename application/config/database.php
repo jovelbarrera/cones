@@ -59,6 +59,7 @@ $db['schoolapp']['database'] = 'conescapan';
 // $db['schoolapp']['username'] = 'conescapan';
 // $db['schoolapp']['password'] = '123456';
 // $db['schoolapp']['database'] = 'conescapan2015_db';
+
 $db['schoolapp']['dbdriver'] = 'mysqli';
 $db['schoolapp']['dbprefix'] = '';
 $db['schoolapp']['pconnect'] = TRUE;
