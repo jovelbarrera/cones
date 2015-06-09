@@ -219,17 +219,20 @@
 
                                             $('#habitacion').empty()
 
-                                            if ( $(this).val() == "E" ){
-                                                             
-                                                $("#habitacion").attr("value","Cuádruple ($250.00)").text("Cuádruple ($250.00)");      
-                                                //$("#mySelect").append('<option value="option1">Option</option>'); otra forma  
+                                            if ( $(this).val() == "E" ){                                                             
+                                                // $("#habitacion").attr("value","Cuádruple ($250.00)").text("Cuádruple ($250.00)");      
+                                                    $("#habitacion").append('<option value="Cuádruple ($250.00)">Cuádruple ($250.00)</option>'); 
                                             }
                                             else if ( $(this).val()=="P"){
-                                                    $("#habitacion").attr("value","Doble ($375.00)").text("Doble ($375.00)"); 
+                                                    // $("#habitacion").attr("value","Doble ($375.00)").text("Doble ($375.00)"); 
+                                                    $("#habitacion").append('<option value="Doble ($375.00)">Doble ($375.00)</option>'); 
                                             }
                                             else if ( $(this).val()=="N" ){
-                                                    $("#habitacion").attr("value","Cuádruple ($280.00)").text("Cuádruple ($280.00)");       
-                                                    $("#habitacion").attr("value","Doble ($410.00)").text("Doble ($410.00)"); 
+                                                    // $("#habitacion").attr("value","Cuádruple ($280.00)").text("Cuádruple ($280.00)");       
+                                                    // $("#habitacion").attr("value","Doble ($410.00)").text("Doble ($410.00)"); 
+                                                     
+                                                    $("#habitacion").append('<option value="Cuádruple ($280.00)">Cuádruple ($280.00)</option>');
+                                                    $("#habitacion").append('<option value="Doble ($410.00)">Doble ($410.00)</option>');           
                                             }        
 
                                         });
