@@ -212,8 +212,32 @@
                           </div> -->
                         
                               <button type="submit" id="btn_preinscrip" class="btn btn-success">Enviar</button>
+                              <script type="text/javascript">
+                                     $(document).ready(function(){
+
+                                        $('#tipo_miembro').change(function(){
+
+                                            $('#habitacion').empty()
+
+                                            if ( $(this).val() == "E" ){
+                                                             
+                                                $("#habitacion").attr("value","Cuádruple ($250.00)").text("Cuádruple ($250.00)");      
+                                                //$("#mySelect").append('<option value="option1">Option</option>'); otra forma  
+                                            }
+                                            else if ( $(this).val()=="P"){
+                                                    $("#habitacion").attr("value","Doble ($375.00)").text("Doble ($375.00)"); 
+                                            }
+                                            else if ( $(this).val()=="N" ){
+                                                    $("#habitacion").attr("value","Cuádruple ($280.00)").text("Cuádruple ($280.00)");       
+                                                    $("#habitacion").attr("value","Doble ($410.00)").text("Doble ($410.00)"); 
+                                            }        
+
+                                        });
+                                    });
+                                    </script>
                        
                     </form>
+
 
               </div>
 
@@ -380,26 +404,3 @@
 <div>&nbsp;</div>
 
 <div>&nbsp;</div>
-<script type="text/javascript">
- $(document).ready(function(){
-
-    $('#tipo_miembro').change(function(){
-
-        $('#habitacion').empty()
-
-        if ( $(this).val() == "E" ){
-                         
-            $("#habitacion").attr("value","Cuádruple ($250.00)").text("Cuádruple ($250.00)");      
-            //$("#mySelect").append('<option value="option1">Option</option>'); otra forma  
-        }
-        else if ( $(this).val()=="P"){
-                $("#habitacion").attr("value","Doble ($375.00)").text("Doble ($375.00)"); 
-        }
-        else if ( $(this).val()=="N" ){
-                $("#habitacion").attr("value","Cuádruple ($280.00)").text("Cuádruple ($280.00)");       
-                $("#habitacion").attr("value","Doble ($410.00)").text("Doble ($410.00)"); 
-        }        
-
-    });
-});
-</script>
