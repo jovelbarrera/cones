@@ -1,7 +1,6 @@
 <div class="container" style="min-height: 500px">
 
     
-
     <div class="page-header">
 
         <h1 class="text-center">Inscripciones</h1>
@@ -159,7 +158,7 @@
 
                                 <label for="no_miembro">N° Miembro</label>
 
-                                <input type="text" class="form-control" id="no_miembro" placeholder="Ingrese el numero de miembro(si posee membresia IEEE)" maxlength="20">
+                                <input type="number" class="form-control" id="no_miembro" placeholder="Ingrese el numero de miembro(si posee membresia IEEE)" maxlength="20">
 
                             </div>
 
@@ -231,8 +230,8 @@
                                                     // $("#habitacion").attr("value","Cuádruple ($280.00)").text("Cuádruple ($280.00)");       
                                                     // $("#habitacion").attr("value","Doble ($410.00)").text("Doble ($410.00)"); 
                                                      
-                                                    $("#habitacion").append('<option value="Cuádruple ($280.00)">Cuádruple ($280.00)</option>');
-                                                    $("#habitacion").append('<option value="Doble ($410.00)">Doble ($410.00)</option>');           
+                                                    $("#habitacion").append('<option value="Cuádruple ($280.00)">Cuádruple ($280.00) Estudiante</option>');
+                                                    $("#habitacion").append('<option value="Doble ($410.00)">Doble ($410.00) Profesional</option>');           
                                             }        
 
                                         });
