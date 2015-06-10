@@ -2,10 +2,8 @@
 
 <style type="text/css">
 body {
-    background-image: url('../assets/img/fondos/hex_big_invisible.png');
-    background-size: 100%;
-    /*background-image: url('./assets/img/fondos/hex_small_invisble.png');*/
-    
+    background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url('../assets/img/fondos/hex_big_invisible.png');
+    background-size: 100%;        
 }
 </style>
     
