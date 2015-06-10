@@ -1,5 +1,13 @@
 <div class="container" style="min-height: 500px">
 
+<style type="text/css">
+body {
+    background-image: url('../assets/img/fondos/hex_big_invisible.png');
+    background-size: 100%;
+    /*background-image: url('./assets/img/fondos/hex_small_invisble.png');*/
+    
+}
+</style>
     
     <div class="page-header">
 
