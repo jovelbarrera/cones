@@ -48,7 +48,7 @@
 
                                 <label for="nombre">Nombre Completo</label>
 
-                                <input required="required" type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre completo" maxlength="100">
+                                <input required="required" type="text" class="form-control" name="nombre" id="nombre" placeholder="Ingrese su nombre completo" maxlength="100">
 
                             </div>
 
@@ -158,7 +158,7 @@
 
                                 <label for="no_miembro">N° Miembro</label>
 
-                                <input type="number" class="form-control" id="no_miembro" placeholder="Ingrese el numero de miembro(si posee membresia IEEE)" maxlength="20">
+                                <input type="text" class="form-control" name="no_miembro" id="no_miembro" placeholder="Ingrese el numero de miembro(si posee membresia IEEE)" maxlength="20">
 
                             </div>
 
@@ -168,7 +168,7 @@
 
                                 <label for="universidad">Universidad</label>
 
-                                <input type="text" class="form-control" id="universidad" placeholder="Universidad en la que estudia(si aun asiste)" maxlength="75">                                
+                                <input type="text" class="form-control" name="universidad" id="universidad" placeholder="Universidad en la que estudia(si aun asiste)" maxlength="75">                                
 
                             </div>
 
@@ -194,7 +194,7 @@
 
                                 <label for="email">Email</label>
 
-                                <input required="required" type="email" class="form-control" id="email" placeholder="Ingrese su email" maxlength="50">
+                                <input required="required" type="email" class="form-control" name="email" id="email" placeholder="Ingrese su email" maxlength="50">
 
                             </div>                            
 
@@ -210,7 +210,7 @@
 
                           </div> -->
                         
-                              <button type="submit" id="btn_preinscrip" class="btn btn-success">Enviar</button>
+                              <button type="submit" id="btn_preinscrip"  name="btn_preinscrip" class="btn btn-success">Enviar</button>
                               <script type="text/javascript">
                                      $(document).ready(function(){
 
