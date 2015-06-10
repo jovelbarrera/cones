@@ -182,7 +182,7 @@
 
                                         <!-- <option value="Doble" selected>Doble</option>                                         -->
 
-                                        <option value="Cuádruple">Cuádruple ($250.00)</option>      
+                                        <option value="Cuádruple ($250.00)">Cuádruple ($250.00)</option>      
 
                                 </select>   
 
