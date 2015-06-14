@@ -2,10 +2,12 @@
 
 <style type="text/css">
 body {
-    background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url('../assets/img/fondos/hex_big_invisible.png');
-    background-size: 100%;        
+
+    background-image: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)), url('./assets/img/fondos/hex_big_invisible.png');
+    background-size: 100%;
 }
 </style>
+
     
     <div class="page-header">
 
@@ -164,7 +166,7 @@ body {
 
                                 <label for="no_miembro">N° Miembro</label>
 
-                                <input type="text" class="form-control" name="no_miembro" id="no_miembro" placeholder="Ingrese el numero de miembro(si posee membresia IEEE)" maxlength="20">
+                                <input required type="text" class="form-control" name="no_miembro" id="no_miembro" placeholder="Ingrese el número de miembro" maxlength="20">
 
                             </div>
 
@@ -188,7 +190,7 @@ body {
 
                                         <!-- <option value="Doble" selected>Doble</option>                                         -->
 
-                                        <option value="Cuádruple ($250.00)">Cuádruple ($250.00)</option>      
+                                        <option value="Cuádruple">Cuádruple ($250.00)</option>      
 
                                 </select>   
 
@@ -203,20 +205,19 @@ body {
                                 <input required="required" type="email" class="form-control" name="email" id="email" placeholder="Ingrese su email" maxlength="50">
 
                             </div>                            
-
                           
-
                           <!-- <div class="form-group">
-
                             <label for="ejemplo_archivo_1">Adjuntar un archivo</label>
-
                             <input type="file" id="ejemplo_archivo_1">
-
                             <p class="help-block">Ejemplo de texto de ayuda.</p>
-
                           </div> -->
-                        
-                              <button type="submit" id="btn_preinscrip"  name="btn_preinscrip" class="btn btn-success">Enviar</button>
+                    <div class="modal-footer">
+                            <div class="btn-group">
+                              <button type="submit" id="btn_preinscrip" name="btn_preinscrip" class="btn btn-success pull-right">Enviar</button>                              
+                    </div>
+
+                            </div>
+
                               <script type="text/javascript">
                                      $(document).ready(function(){
 
@@ -226,21 +227,33 @@ body {
 
                                             if ( $(this).val() == "E" ){                                                             
                                                 // $("#habitacion").attr("value","Cuádruple ($250.00)").text("Cuádruple ($250.00)");      
+                                                    $("#no_miembro").val("");
+                                                    $("#no_miembro").show().parent().show();
+                                                    $("#no_miembro").prop('required',true);
                                                     $("#habitacion").append('<option value="Cuádruple ($250.00)">Cuádruple ($250.00)</option>'); 
                                             }
                                             else if ( $(this).val()=="P"){
                                                     // $("#habitacion").attr("value","Doble ($375.00)").text("Doble ($375.00)"); 
+                                                    $("#no_miembro").val("");
+                                                    $("#no_miembro").show().parent().show();
+                                                    $("#no_miembro").prop('required',true);
                                                     $("#habitacion").append('<option value="Doble ($375.00)">Doble ($375.00)</option>'); 
                                             }
                                             else if ( $(this).val()=="N" ){
                                                     // $("#habitacion").attr("value","Cuádruple ($280.00)").text("Cuádruple ($280.00)");       
                                                     // $("#habitacion").attr("value","Doble ($410.00)").text("Doble ($410.00)"); 
-                                                     
-                                                    $("#habitacion").append('<option value="Cuádruple ($280.00)">Cuádruple ($280.00) Estudiante</option>');
-                                                    $("#habitacion").append('<option value="Doble ($410.00)">Doble ($410.00) Profesional</option>');           
-                                            }        
+                                                    $("#no_miembro").val("");
+                                                    $("#no_miembro").hide().parent().hide();
+                                                    $("#no_miembro").prop('required',false);
+                                                    $("#habitacion").append('<option value="Cuádruple ($280.00)">Cuádruple ($280.00)</option>');
+                                                    $("#habitacion").append('<option value="Doble ($410.00)">Doble ($410.00)</option>');           
+                                            } 
+
 
                                         });
+
+                                       
+
                                     });
                                     </script>
                        
