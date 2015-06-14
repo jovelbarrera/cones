@@ -1,34 +1,34 @@
 <div>&nbsp;</div>
 
 <div class="container">
-
+<!--inicio PATROCINADORES DIAMENTE -->
     <div class="row">
-
-      <div id="sponsor-1" class="col-lg-4">
-
-            <a href="http://www.svfenix.com/" target="_blank"><img class="img-responsive center-block" src="<?php echo asset_url(); ?>img/sponsors/logo_fenix.jpg" alt="Fenix" /></a>
-
-        </div>
-
-
-
-        <div id="sponsor-2" class="col-lg-4">
-
-            <a href="http://www.setisa.com.sv/" target="_blank"><img class="img-responsive center-block" src="<?php echo asset_url(); ?>img/sponsors/setisa_keysight.jpg" alt="" /></a>
-
-        </div>
-
-
-
         <div id="sponsor-3" class="col-lg-4">
-
             <a href="http://www.generalcable.com/" target="_blank"><img class="img-responsive center-block" src="<?php echo asset_url(); ?>img/sponsors/gcable.jpg" alt="" /></a>
-
+        </div>
+    </div>
+<!--fin PATROCINADORES DIAMENTE -->
+</br>
+<!--inicio PATROCINADORES PLATINO -->
+    <div class = "row">
+         <div id="sponsor-2" class="col-lg-2">
+            <a href="http://www.setisa.com.sv/" target="_blank"><img class="img-responsive center-block" src="<?php echo asset_url(); ?>img/sponsors/setisa_keysight.jpg" alt="" /></a>
         </div>
 
     </div>
-
-
+<!--fin PATROCINADORES PLATINO -->
+</br>
+<!--inicio PATROCINADORES ORO Y PLATA -->
+    <div class = "row">
+         <div id="sponsor-1" class="col-lg-2">
+            <a href="http://www.svfenix.com/" target="_blank"><img class="img-responsive center-block" src="<?php echo asset_url(); ?>img/sponsors/logo_fenix.jpg" alt="Fenix" /></a>
+        </div>
+    </div>
+<!--fin PATROCINADORES ORO Y PLATA -->
+<div>
+    </br>
+    </br>
+</div>
 
   <!--   <div class="row">
 
@@ -139,27 +139,13 @@
         </div>
 
     </div> -->
-
-
-
 </div>
-
-
-
 <div>&nbsp;</div>
-
 <script>
-
     $(document).ready(function () {
-
         for (i = 1; i <= 15; i++) {
-
 //            $('#sponsor-' + i).delay( 800 ).removeClass('sponsors-hidden');//.fadeIn( 5000 );
-
             $('#sponsor-' + i).hide().delay( 0 ).fadeIn( 5000 );
-
         }
-
     });
-
 </script>
