@@ -1,14 +1,23 @@
 <div>&nbsp;</div>
 
+<div>
+    </br>
+    </br>
+    
+</div>
 <div class="container">
 <!--inicio PATROCINADORES DIAMENTE -->
     <div class="row">
-        <div id="sponsor-3" class="col-lg-6">
-            <a href="http://www.generalcable.com/" target="_blank"><img class="img-responsive center-block" src="<?php echo asset_url(); ?>img/sponsors/gcable.jpg" alt="" /></a>
+        <div id="sponsor-3" class="col-lg-4">
+            <a href="http://www.generalcable.com/" target="_blank"><img class="img-responsive center-block" src="<?php echo asset_url(); ?>img/sponsors/gcable.png" alt="" /></a>
         </div>
     </div>
 <!--fin PATROCINADORES DIAMENTE -->
-</br>
+<div>
+    </br>
+    </br>
+    </br>
+</div>
 <!--inicio PATROCINADORES PLATINO -->
     <div class = "row">
          <div id="sponsor-2" class="col-lg-2">
@@ -17,7 +26,10 @@
 
     </div>
 <!--fin PATROCINADORES PLATINO -->
-</br>
+<div>
+    </br>
+    </br>
+</div>
 <!--inicio PATROCINADORES ORO Y PLATA -->
     <div class = "row">
          <div id="sponsor-1" class="col-lg-2">
