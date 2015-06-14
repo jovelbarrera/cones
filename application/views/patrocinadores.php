@@ -3,7 +3,7 @@
 <div class="container">
 <!--inicio PATROCINADORES DIAMENTE -->
     <div class="row">
-        <div id="sponsor-3" class="col-lg-4">
+        <div id="sponsor-3" class="col-lg-6">
             <a href="http://www.generalcable.com/" target="_blank"><img class="img-responsive center-block" src="<?php echo asset_url(); ?>img/sponsors/gcable.jpg" alt="" /></a>
         </div>
     </div>
